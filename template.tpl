@@ -11,3 +11,5 @@ theme: twitter
 {{ '{% include JB/setup %}' }}
 
 {% endblock header %}
+{% block input_group %}
+{% endblock input_group %}
