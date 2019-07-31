@@ -10,6 +10,21 @@ theme: twitter
 ---
 {{ '{% include JB/setup %}' }}
 
+<style type="text/css">
+table td {
+    background: none;
+}
+
+table tr.even td {
+    background: none;
+}
+
+table {
+	text-shadow: none;
+}
+
+</style>
+
 {% endblock header %}
 {% block input_group %}
 {% endblock input_group %}
